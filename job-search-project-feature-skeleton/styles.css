@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  body {
+    background-color: #FEFCFB;
+  }
+
+  .nav-logo {
+    width: 250px;
+    left: 40px;
+    position: relative;
+}
+
+.nav-container {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links-list {
+  list-style-type: none;
+  right: 145px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-links-list-item {
+  display: inline-block;
+  margin-left: 65px;
+}
+
+.nav-links-list-item a{
+    color: #222222;
+    text-decoration: none;
+  }
+
+.hero-container {
+    padding-bottom: 90px;
+    margin-left: 5%;
+}
+
+.hero-header {
+    font-family: 'Volkhov', serif;
+    font-size: 60px;
+    margin-bottom: 7px;
+    max-width: 480px;
+}
+
+.hero-paragraph {
+    font-family: 'Poppins', sans-serif;
+    max-width: 250px;
+}
+
+.hero-graphic {
+    text-align: right;
+    width: 38%;
+    margin: 0 auto;
+    bottom: 25%;
+    position: absolute;
+    left: 50%;
+} 
+
+/* .learn-more {
+    position: absolute;
+    left: 65px;
+    bottom: 70px;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #0d6efd;
+    border-color: #0d6efd;
+} */
+ 
+/* .learn-more:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+ } */
+
+.sign-up-button {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: white;
+    background-color: #0d6efd;
+}
+
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+  }
+
+  .container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+
+  .container p span.cursor.typing {
+    animation: none;
+  }
+
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
+.about-container {
+    font-family: 'Volkhov', serif;
+    height: 55vh;
+}
+
+.about-content {
+    max-width: 500px;
+}
+
+.about-main-text {
+    text-align: center;
+}
+
+.container .about-sub-text {
+    font-size: 1.2rem;;
+}
+
+.stats-container {
+    background-color: #F5F5F5;
+    height: 350px;
+}
+
+.stats-item-grid {
+    font-family: 'Volkhov', serif;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.middle-main-text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.stats-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.stats-item-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large; 
+}
+
+.stats-item-paragraph {
+    font-family: 'Volkhov', serif;
+    font-size: medium;
+}
+
+/* .search-container {
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 70px;
+  }
+  
+  input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    color: black;
+  }
+
+      */
