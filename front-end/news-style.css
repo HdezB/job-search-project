@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+
+  body {
+    background-color: #FEFCFB;
+    font-family: 'Poppins', sans-serif;  
+  }
+
+  .body-logo {
+      width:250px;
+      left: 40px;
+      position: relative;
+  }
+
+  .logo-container {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #4086F4;
+  }
+
+  .new-img {
+      align-items: center;
+      justify-content: space-between;
+  }
