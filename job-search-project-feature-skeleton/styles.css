@@ -55,7 +55,8 @@ html, body {
 
 .hero-paragraph {
     font-family: 'Poppins', sans-serif;
-    max-width: 250px;
+    max-width: 360px;
+    padding-top: 15px;
 }
 
 .hero-graphic {
@@ -67,11 +68,27 @@ html, body {
     left: 50%;
 } 
 
-/* .learn-more {
-    position: absolute;
-    left: 65px;
-    bottom: 70px;
+.search-container {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.search-input {
+    padding: 6px 12px;
+    width: 230px;
+    border-style: none;
+    border-radius: .25rem;
+    border: 1px solid silver;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    outline: 0;
+    line-height: 1.5;
+}
+
+.search-button {
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     outline: 0;
     font-weight: 400;
     line-height: 1.5;
@@ -82,15 +99,9 @@ html, body {
     font-size: 1rem;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    color: #0d6efd;
-    border-color: #0d6efd;
-} */
- 
-/* .learn-more:hover {
-    color: #fff;
+    color: white;
     background-color: #0d6efd;
-    border-color: #0d6efd;
- } */
+}
 
 .sign-up-button {
     cursor: pointer;
@@ -109,14 +120,14 @@ html, body {
     background-color: #0d6efd;
 }
 
-  .container {
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .container p {
+.container p {
     font-size: 3rem;
     padding: 0.5rem;
     font-weight: bold;
@@ -199,23 +210,8 @@ html, body {
     font-size: medium;
 }
 
-/* .search-container {
-    width: 490px;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 70px;
-  }
-  
-  input#search-bar {
-    margin: 0 auto;
-    width: 100%;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 1rem;
-    border: 1px solid #D0CFCE;
-    outline: none;
-    color: black;
-  }
-
-      */
+.footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
 
