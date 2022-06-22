@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HdezB/job-search-project.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -19,11 +20,6 @@
   "homepage": "https://github.com/HdezB/job-search-project#readme",
   "dependencies": {
     "axios": "^0.27.2",
-    "cheerio": "^1.0.0-rc.11",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.20.1"
+    "express": "^4.18.1"
   }
 }
