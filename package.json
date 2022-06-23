@@ -1,0 +1,21 @@
+{
+  "name": "job-search-project",
+  "version": "1.0.0",
+  "description": "Simple full-stack web application allowing users to search for jobs in a specific industry.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HdezB/job-search-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HdezB/job-search-project/issues"
+  },
+  "homepage": "https://github.com/HdezB/job-search-project#readme"
+}
