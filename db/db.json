@@ -1,0 +1,28 @@
+[
+    {
+        "name": "cnet",
+        "address": "https://www.cnet.com/tech/",
+        "base": "https://www.cnet.com"
+    },
+    {
+        "name": "cnn",
+        "address": "https://www.cnn.com/business/tech",
+        "base": ""
+    },
+    {   
+        "name": "cnbc",
+        "address": "https://www.cnbc.com/technology/",
+        "base": ""
+
+    },
+    {
+        "name": "usatoday",
+        "address": "https://www.usatoday.com/tech/",
+        "base": ""
+    }, 
+    {
+        "name": "technewstoday",
+        "address": "https://www.technewstoday.com/",
+        "base": ""
+    }
+]
