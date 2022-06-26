@@ -20,6 +20,20 @@ function hdc_submit() {
              name: HDC_EL.name.value.trim(),
              reaction: reaction,
         };
+
+        //Display listing on html
+
+        var newDiv = $("<div>").addClass("hdopen-listings");
+        var div2 =  $("<div>").addClass("hd-listing");
+        var newh4 =  $("<h4>").text(comment.companyName);
+        var newP = $("<p>").text(comment.position);
+        var span = $("<span>").text(comment.name)
+
+ 
+        newDiv.append(newh4, newP, span);
+        $("#hdc-comments").append(newDiv);
+
+
         console.log(comment);
         hdc_diable_submit();
     }
