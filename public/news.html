@@ -18,11 +18,59 @@
         <h1>New Section</h1>
         <p>The lastest stories in Tech News at the moment</p>
     </div>
-    
-    <div >
+    <div id="wrapper">
+    <div id="hdcomments">
+        <h2>Leave A Company Hiring</h2>
+        <div id="hdc-creates-listing">
+            <!----comment form-->
+            <label for ="hdc-company-input" class="hdc-label">Company Name</label>
+            <textarea id="hdc-company-input" rows = "6" class="hdc-input"></textarea>
+
+
+            <div id="hdc-comment-info">
+            <div>
+                <label for="hdc-position-input" class="hdc-label" >Open Position</label>
+                <textarea id="hdc-position-input" class="hdc-input"></textarea>
+            </div>
+            <div>
+                <label for="hdc-name-input" class="hdc-label">Your Name</label>
+                <input type="text" id="hdc-name-input" class="hdc-input"/>
+            </div>
+
+            <div id="hdc-comment-footer">
+                <div id="hdc-comment-reactions">
+                    <h4 id="hdc-reactions-title">Reactions</h4>
+                    <span class="hdc-reactions" data-reaction="like" >👍</span>
+                    <span class="hdc-reactions" data-reaction="money">🤑</span>
+                    <span class="hdc-reactions" data-reaction="rasing hands">🙌</span>
+                </div>
+                <button id="hdc-submit" disabled="true">Submit</button>
+            </div>
+
+            </div>
+        </div>
+
+        <div id="hdc-comments">
+            <!--show comments-->
+            <h3>Current Listings</h3>
+            <div class = "hdopen-listings" id="hd-listing-1">
+                <div class = "hd-listing">
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore quo nulla voluptatum nam, minima non, quas odio, aperiam possimus tempora eaque voluptates perspiciatis voluptatibus rem enim tempore. Ducimus, fuga corrupti.</p> 
+                </div>
+                <div class = "hdc-meta">
+                    <div class = "hdc-meta-date-author">
+                        May 11th, 2009
+                        <span class = "hdc-meta-author">Marisol</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </div>
-
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="news.js"></script>
 </body>
 
 
