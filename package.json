@@ -1,0 +1,30 @@
+{
+  "name": "job-search-project",
+  "version": "1.0.0",
+  "description": "Simple full-stack web application allowing users to search for jobs in a specific industry.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HdezB/job-search-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HdezB/job-search-project/issues"
+  },
+  "homepage": "https://github.com/HdezB/job-search-project#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.0"
+  }
+}
