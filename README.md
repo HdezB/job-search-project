@@ -17,6 +17,9 @@ Additional features:
 - Responsive, polished UI. 
 - Interactive
 
+Screenshot
+![CaptureProject2](https://user-images.githubusercontent.com/100795164/184223231-b3547bbb-f1c7-41a6-9c8e-9ff8eee664bd.PNG)
+
 
 Link to the deployed app: 
 
